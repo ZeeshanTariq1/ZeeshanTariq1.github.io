@@ -1,0 +1,3 @@
+Wrap the hero section
+make a container for nav buttons and assign them basic css
+for responsiveness of tablets mobile and laptops make min max media queries width and then correct them 

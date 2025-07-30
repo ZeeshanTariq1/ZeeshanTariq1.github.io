@@ -4,7 +4,7 @@
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 50px;
   font-weight: bolder;
 }
 
@@ -84,30 +84,27 @@ h3 {
 }
 
 .hero_section_container {
-  min-height: 100vh;
   background-color: #E0F8F2;
 }
 
 
 
 
-.image-container {
-  position: relative;
-}
+
 
 
 .graph-img {
+ 
+  z-index: 6;
   position: absolute;
-  z-index: 2;
-  top: -150px;
 }
 
+
 .card-img {
-  position: relative;
-  width: 80%;
+  
   transform: rotate(-40deg);
-  top: 60px;
-  z-index: 1;
+  
+  
 }
 
 .star-rating {
@@ -119,7 +116,6 @@ h3 {
   background-color: #ff6933;
   color: white;
   border: 2px solid black;
-  padding: 10px 30px;
   font-size: smaller;
   font-family: 'Inter', sans-serif;
   border-radius: 8px;
@@ -127,6 +123,7 @@ h3 {
   border-color: 2px solid black;
   transition: all 0.3s ease;
   cursor: pointer;
+  padding: 10px 30px;
 
 }
 
@@ -210,8 +207,6 @@ h3 {
   font-size: 50px;
   font-weight: bolder;
   font-family: 'Inter', sans-serif;
-  text-align: center;
-  justify-self: center;
 }
 
 
@@ -313,9 +308,7 @@ h3 {
 
 /* hand_held_coupon */
 
-.handheld_coupon_heading {
-  font-size: 80px;
-}
+
 
 .handheld-custom-btn {
   background-color: white;
@@ -470,10 +463,10 @@ h3 {
 
 /* Mobile */
 
-@media (min-width: 320px) and (max-width: 480px)  {
+@media (min-width: 319px) and (max-width: 480px)  {
 
   h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   h2 {
@@ -490,6 +483,10 @@ h3 {
 
   .grid_card p {
     font-size: 10px;
+  }
+
+  .nav_buttons{
+    padding: 10px;
   }
 
   .handheld_coupon_heading {
@@ -518,24 +515,23 @@ h3 {
     font-family: 'Inter', sans-serif;
     text-align: center;
   }
+.hero_images_container {
+    position: relative;
+  }
 
   .graph-img {
     width: 80%;
-    top:  -110px;
-    left: 10px;
     position: absolute;
+    top: 10px;
   }
-
   .card-img {
-    position: relative;
     width: 80%;
-    top: -10px;
-
+    transform: rotate(-40deg);
+    margin-top: 150px;
   }
 
-  .hero_section_container {
-    min-height: 70vh;
-  }
+
+ 
 
   .card-img-top {
     max-height: 100px;
@@ -574,6 +570,11 @@ h3 {
   padding: 10px 10px ;
 }
 
+.custom-btn{
+  padding: 10px;
+}
+
+
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -594,23 +595,28 @@ h3 {
   }
 
   .graph-img {
-    width: 100%;
-    top: 110px;
+    width: 50%;
+    
     z-index: 6;
     position: absolute;
+    top: 220px;
    
 
   }
 
   .card-img {
-    position: relative;
+
     width: 90%;
-    top: 160px;
+    margin-top: 150px;
     transform: rotate(-40deg);
 
   }
   .hero_section_container {
   background-color: #E0F8F2;
+  max-height: 630px;
+}
+.custom-btn{
+  padding: 10px;
 }
 
 
@@ -635,21 +641,28 @@ h3 {
     font-family: "Inter", sans-serif;
 
   }
+  
 
 }
 
 
-@media (min-width: 769px) and (max-width: 1025px) {
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  h1{
+    font-size: 50px;
+  }
+
 .graph-img {
-    width: 95%;
-    top: 115px;
+    width: 40%;
+    top: 105px;
     position: absolute;
+
   }
 
   .card-img {
-    position: relative;
-    top: 210px;
-    width: 95%;
+    transform: rotate(-40deg);
+    margin-top: 50px;
+    width: 90%;
 
   }
   .nav_buttons_container{
@@ -657,30 +670,32 @@ h3 {
   
   }
   .nav_buttons{
-    padding:10px 20px;
+    padding:2px 22px;
   }
+  .custom-btn{
+    padding: 10px;
+  } 
+  
   
 
 }
 
-@media (min-width:1026px) and (max-width: 1439px){
+@media (min-width:1025px) and (max-width: 1440px){
 
   .graph-img {
-    width: 100%;
-    
+    width: 34%;
+    margin-top: 100px;
  
     position: absolute;
   }
 
   .card-img {
-    position: relative;
-    width: 90%;
-    
-
+    width: 70%;
+    margin-top: 100px;
+    transform: rotate(-40deg);
   }
-  .hero_section_container {
-    min-height: 100vh;
-  }
+  
+  
 
 }
 
@@ -689,17 +704,14 @@ h3 {
 
 @media (min-width:1441px) and (max-width: 2560px){
   .graph-img {
-    width: 45%;
-    left: 100px;
- 
+    width: 19%;
     position: absolute;
   }
 
   .card-img {
-    position: relative;
-    width: 45%;
-    left: 100px;
-
+    transform: rotate(-40deg);
+    width: 40%;
+    
   }
 
 }

@@ -27,98 +27,132 @@
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg " id="navbar">
-    <div class="container-fluid bg-white ">
-      <div class="container py-2">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <a class="navbar-brand d-none d-md-none d-lg-block" href="#">
-          <img src="/images/logo.png" class="img-fluid " alt="logo-image">
-        </a>
-          <ul class="navbar-nav ms-auto me-lg-5" style="font-family: 'Inter',sans-serif ;">
+    <div class="container py-2" style="background-color: white;">
+      <a class="navbar-brand" href="#">
+        <img src="/images/logo.png" class="img-fluid " alt="logo-image">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto me-lg-5" style="font-family: 'Inter',sans-serif ;">
+          <li class="nav-item dropdown ">
+            <a class="nav-link fw-bolder" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">
+              Resources
+              <i class="fas fa-chevron-down ms-2 dropdown-icon"></i></a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown  ">
+            <a class="nav-link fw-bolder " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Company
+              <i class="fas fa-chevron-down ms-2 dropdown-icon"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link fw-bolder" href="#">Success Stories</a>
+          </li>
 
+          <li class="nav-item  fw-bolder">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
 
-
-            <li class="nav-item dropdown ">
-              <a class="nav-link fw-bolder" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">
-                Resources
-                <i class="fas fa-chevron-down ms-2 dropdown-icon"></i></a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown  ">
-              <a class="nav-link fw-bolder " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Company
-                <i class="fas fa-chevron-down ms-2 dropdown-icon"></i>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link fw-bolder" href="#">Success Stories</a>
-            </li>
-
-            <li class="nav-item  fw-bolder">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-          </ul>
-
-          <div class="d-flex">
-            <button class="nav_buttons login_btn  me-2 ">Login</button>
-            <button class="nav_buttons free_account_btn">
-              Create Free Account
-            </button>
-          </div>
+        <div class="d-flex">
+          <button class="nav_buttons login_btn  me-2 ">Login</button>
+          <button class="nav_buttons free_account_btn">
+            Create Free Account
+          </button>
         </div>
       </div>
     </div>
+
   </nav>
 
   <!-- Hero Section -->
   <div class="wrapper">
-    <div class="contianer-fluid" style="background-color: #E0F8F2;">
-      <div class="container py-5 hero_section_container">
+    <div style="background-color: #E0F8F2;">
+      <div class="container py-5">
         <div class="row">
-          <div class="col-lg-7 col-md-6 col-12 text-center text-md-start p-5">
-            <h1 class="fw-bolder">
-              Meet your
-              <br> <span class="favorite">favorite</span>
-              new (old) <br> marketing channel.
-            </h1>
-            <p class="mt-3" style="font-family: 'Inter',sans-serif; font-weight: 400;">
-              Remarkable results. Easier than email. Postcard marketing reinvented for modern ecommerce.
-            </p>
-            <div
-              class="container-fluid d-flex align-items-center mt-4 flex-column  flex-lg-row align-items-md-start gap-md-2">
-              <button class="custom-btn">TRY IT RISK-FREE</button>
-              <div class="star-rating mx-lg-3">★ ★ ★ ★ ★ <br>
-                <small class="text-center" style="font-family: 'Inter',sans-serif; color: black; font-size: medium;">5.0
-                  Shopify Rating</small>
+          <div class=" col-md-6 col-12 ">
+            <div class="text-center text-md-start p-5">
+              <h1 class="fw-bolder">
+                Meet your
+                <br> <span class="favorite">favorite</span>
+                new (old) <br> marketing channel.
+              </h1>
+              <p class="mt-3" style="font-family: 'Inter',sans-serif; font-weight: 400;">
+                Remarkable results. Easier than email. Postcard marketing reinvented for modern ecommerce.
+              </p>
+              <div
+                class="container-fluid d-flex align-items-center mt-4 flex-column  flex-md-row align-items-md-start gap-md-2">
+                <button class="custom-btn">TRY IT RISK-FREE</button>
+                <div class="star-rating mx-lg-3 mt-4 mt-lg-0">★ ★ ★ ★ ★ <br>
+                  <small class="text-center"
+                    style="font-family: 'Inter',sans-serif; color: black; font-size: medium;">5.0
+                    Shopify Rating</small>
+                </div>
+
+
               </div>
-
-
             </div>
           </div>
 
 
-          <div class="col-lg-5 col-md-6 col-12 py-5 hero_images_container">
-            <div class="d-flex justify-content-center align-items-center">
-              <img src="/images/h_image.png" class="graph-img img-fluid" alt="Graph">
-              <img src="/images/card.png" class="card-img img-fluid" alt="Card">
+          <div class=" col-md-6 col-12 d-flex first-section-img">
+            <div class="card rounded-4" style="width: 200px; height: 90px;">
+              <div class="card-body">
+                <div class="d-flex align-items-center justify-content-center">
+                  <div class="card-img-container" style="
+                        border: 1px solid #000;
+                        padding: 1px;
+                        border-radius: 50px;
+                        height: 40px;
+                        width: 40px;
+                      ">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnSA1zygA3rubv-VK0DrVcQ02Po79kJhXo_A&s"
+                      alt="" class="img-fluid" width="40" style="border-radius: 50%" />
+                  </div>
+                  <div class="ms-3">
+                    <span class="fw-bolder fs-5"> 180-day </span>
+                    <br />
+                    <span class="fw-bolder fs-5"> win-back </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card rounded-4 mt-auto ms-auto" style="width: 300px">
+              <div></div>
+              <div class="card-body">
+                <div class="d-flex flex-column align-items-center justify-content-center">
+                  <div class="ms-3">
+                    <span class="fw-bolder"> Return on Investment </span>
+                    <br />
+                    <span class="fw-bolder fs-2"> 2345.97% </span>
+                  </div>
+                  <div class="card-img-container" style="
+                        border-radius: 50px;
+                      ">
+                    <img src="./images/ascending-graph-1173935_1280.png" alt="" class="img-fluid " />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -126,91 +160,96 @@
     </div>
 
     <!-- DTC -->
-    <div class="container-fluid">
-      <div class="container py-5">
-        <div class="d-flex justify-content-center">
-          <h1 class="text-center dtc_heading">Trusted by thousand of top DTC <span class="dtc">brands</span> </h1>
+
+    <div class="container py-5">
+      <div class="d-flex justify-content-center">
+        <h1 class="text-center dtc_heading">Trusted by thousand of top DTC <span class="dtc">brands</span> </h1>
+      </div>
+
+      <div class="row items py-5 m-4 ">
+
+        <div class="card card_dtc">
+          <div class="card-body">
+            <img src="./images/dtc_1.png" class="img-fluid" style="object-fit: contain; width: 100%;" />
+            <div class="template-demo">
+              <h4 class="text-center fw-bolder fst-italic mt-3"
+                style="font-family: 'Inter',sans-serif; font-size:xx-large;">
+                RUN<span class="fw-normal">GUM</span>
+              </h4>
+            </div>
+          </div>
         </div>
 
-        <div class="row items py-5 m-4 ">
 
-          <div class="card card_dtc">
-            <div class="card-body">
-              <img src="./images/dtc_1.png" class="img-fluid" style="object-fit: contain; width: 100%;" />
-              <div class="template-demo">
-                <h4 class="text-center fw-bolder fst-italic mt-3"
-                  style="font-family: 'Inter',sans-serif; font-size:xx-large;">
-                  RUN<span class="fw-normal">GUM</span>
-                </h4>
-              </div>
+
+        <div class="card card_dtc">
+          <div class="card-body">
+            <img src="./images/dtc_2.png" class="img-fluid" style="object-fit: contain; width: 100%;" />
+            <div class="template-demo d-flex justify-content-center gap-2">
+              <h4 class="text-center mt-3" style="font-family: 'Inter',sans-serif; font-size:xx-large;">
+                Beardbrand
+              </h4>
+              <img class="img-fluid mt-3" src="./images/icons8-beard-50.png" alt="">
             </div>
           </div>
-
-
-
-          <div class="card card_dtc">
-            <div class="card-body">
-              <img src="./images/dtc_2.png" class="img-fluid" style="object-fit: contain; width: 100%;" />
-              <div class="template-demo d-flex justify-content-center gap-2">
-                <h4 class="text-center mt-3" style="font-family: 'Inter',sans-serif; font-size:xx-large;">
-                  Beardbrand
-                </h4>
-                <img class="img-fluid mt-3" src="./images/icons8-beard-50.png" alt="">
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="card card_dtc">
-            <div class="card-body">
-              <img src="./images/dtc_3.png" class="img-fluid" style="object-fit: contain; width: 100%;" />
-              <div class="template-demo d-flex justify-content-center">
-                <h4 class="text-center mt-3" style="font-family: 'Inter',sans-serif; font-size:xx-large;">
-                  PROMIX
-                </h4>
-                <img class="mt-3 img-fluid" src="./images/icons8-circled-r-48.png" alt=""
-                  style="align-self: baseline; height: 20px;">
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="card card_dtc">
-            <div class="card-body">
-              <img src="./images/dtc_4.png" class="img-fluid" style="object-fit: contain; width: 100%;" />
-              <div class="template-demo d-flex justify-content-center">
-                <img src="./images/dtc_5.png" alt="" class="mt-3 img-fluid">
-              </div>
-            </div>
-          </div>
-
         </div>
+
+
+
+        <div class="card card_dtc">
+          <div class="card-body">
+            <img src="./images/dtc_3.png" class="img-fluid" style="object-fit: contain; width: 100%;" />
+            <div class="template-demo d-flex justify-content-center">
+              <h4 class="text-center mt-3" style="font-family: 'Inter',sans-serif; font-size:xx-large;">
+                PROMIX
+              </h4>
+              <img class="mt-3 img-fluid" src="./images/icons8-circled-r-48.png" alt=""
+                style="align-self: baseline; height: 20px;">
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="card card_dtc">
+          <div class="card-body">
+            <img src="./images/dtc_4.png" class="img-fluid" style="object-fit: contain; width: 100%;" />
+            <div class="template-demo d-flex justify-content-center">
+              <img src="./images/dtc_5.png" alt="" class="mt-3 img-fluid">
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 
+
     <!-- Stats -->
 
-    <div class="container-fluid" style="background-color: #EFFDFF;">
+    <div style="background-color: #EFFDFF;">
       <div class="container py-5">
         <h2 class="text-dark text-center stats_heading">Why use direct mail? <br> It <span
             style="color: #009387; font-family: Covered by your Grace"> works </span> like crazy</h2>
         <div class="row py-5">
-          <div class="col-md-4 text-center mt-5 p-5">
+
+          <div class="col-md-4 ">
+            <div class="text-center mt-5 p-5">
             <h1 class="fw-bolder">28X</h1>Higher response than email & digital
-          </div>
-          <div class="col-md-4 d-flex justify-content-center flex-column  p-5 ">
-            <div class=" d-flex  justify-content-center gap-3  percentage_container  ">
-              <div class="percentage_90 text-center d-flex flex-column justify-content-end fw-bolder"
-                style="background-color: #ff6d2c; ">90% <br><span class="fw-normal"> Direct Mail </span></div>
-              <div class="percentage_20 text-center d-flex flex-column  align-self-end fw-bolder"
-                style="background-color: #e0f8f2;">20% <br><span class="fw-normal"> E-Mail </span></div>
             </div>
-            <h6 class="text-center mt-4">Your messages get read</h6>
           </div>
-          <div class="col-md-4 text-dark text-center mt-5 p-5">
+          <div class="col-md-4 ">
+            <div class="d-flex justify-content-center gap-3  percentage_container py-4  ">
+              <div class="percentage_90 text-center d-flex flex-column justify-content-end fw-bolder"
+                style="background-color: #ff6d2c; ">90% <br><span class="fw-normal mb-4"> Direct Mail </span></div>
+              <div class="percentage_20 text-center d-flex flex-column  align-self-end fw-bolder "
+                style="background-color: #e0f8f2;">20% <br><span class="fw-normal mb-3 "> E-Mail </span></div>
+            </div>
+            <div class="text-center fw-bolder">Your messages get read</div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="text-dark text-center mt-5 p-5">
             <h1 class="fw-bolder text-dark">17 Days</h1>Lifespan of a Postcard vs. seconds for email or SMS
+            </div>
           </div>
 
         </div>
@@ -218,180 +257,187 @@
     </div>
 
     <!-- Reviews 1 -->
-    <div class="container-fluid" style="background-color: #FDF3EA;">
+    <div style="background-color: #FDF3EA;">
       <div class="container py-5">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-10 col-lg-6 mb-5">
-            <h1 class="review_1_heading text-center">
-              PostPilot makes it a <span style="color: #009387; font-family: Covered by your Grace;">cinch</span> to
-              send
-              personalized, profit-generating postcards.
-            </h1>
-          </div>
-        </div>
-
+        <h1 class="review_1_heading text-center mx-auto">
+          PostPilot makes it a <span style="color: #009387; font-family: Covered by your Grace;">cinch</span> to
+          send
+          personalized, profit-generating postcards.
+        </h1>
 
         <div class="row">
-          <div class="container-fluid">
-            <div class="col-md-6">
-              <h2 style="font-weight: bolder" class="ms-lg-5"> <span
-                  style="color: #009387; font-family: Covered by your Grace ;"> Powerful</span> <br> Acquisition & <br>
+
+          <div class="col-md-6">
+            <div class="py-5">
+              <h2 style="font-weight: bolder"> <span style="color: #009387; font-family: Covered by your Grace ;">
+                  Powerful</span> <br> Acquisition & <br>
                 Retention</h2>
-              <p class="review_1_text ms-lg-5">
+              <p class="review_1_text">
                 Send one-off or triggered campaigns to customers & prospects. Target email leads with MailMatch™.
               </p>
-              <br> <br>
-              <blockquote class="blockquote mt-4 ms-lg-5"
-                style=" position: relative; border: 2px solid rgba(0, 0, 0, 0.3); border-radius: 10px; width: 90%; min-height: 200px; padding: 1.0rem; ">
-                <img src="./images/inverted_colons.png" alt="" class="img-fluid inverted_colon">
-                <p class="p-4">It's like Klaviyo for direct mail. The results are absolutely insane.</p>
-                <br>
-                <footer class="footer d-flex justify-content-between mx-4 ">
-                  <div>Ash Melwani <cite title="Source Title">CMO</cite> </div>
-                  <div><img src="./images/obvi_reveiew_logo.png" alt="" class="img-fluid obvi">
-                </footer>
-            </div>
-            </blockquote>
 
+              <div class="blockquote reviews_blockquote p-5">
+                <img src="./images/inverted_colons.png" alt="" class="img-fluid inverted_colon">
+                <p>It's like Klaviyo for direct mail. The results are absolutely insane.</p>
+                <div class=" d-flex justify-content-between ">
+                  <div class="text-muted">Ash Melwani <cite title="Source Title">CMO</cite> </div>
+                  <div><img src="./images/obvi_reveiew_logo.png" alt="" class="img-fluid obvi"> </div>
+                </div>
+              </div>
+            </div>
           </div>
+
         </div>
       </div>
-    </div>
-    <!-- Review 2 -->
-    <div class="container-fluid" style="background-color: #FDF3EA;">
+
+
+
       <div class="container py-5">
         <div class="row">
-          <div class="container-fluid d-flex justify-content-end">
+          <div class=" d-flex justify-content-end">
             <div class="col-md-6">
+
               <h2 style="font-weight: bolder;"><span style="color: #009387; font-family: Covered by your Grace;">Fight
                   back </span> against iOS updates, jacked-up CPCs & spam folders</h2>
-              <p class="review_2_text">
+              <p>
                 Deliver your message to all of your customers — for less than the cost of a click.
               </p>
-              <br> <br>
-              <blockquote class="blockquote"
-                style="position: relative;   border: 2px solid rgba(0, 0, 0, 0.3); border-radius: 10px;   min-height: 200px; padding: 1.0rem;">
+
+              <div class="blockquote reviews_blockquote p-5">
                 <img src="./images/inverted_colons.png" alt="" class="img-fluid inverted_colon">
 
-                <p class=" p-4">PostPilot is our new weapon against sinking email engagement and rising PPC costs. The
+                <p>PostPilot is our new weapon against sinking email engagement and rising PPC costs. The
                   results and ROI have been outstanding. It's now one of our core marketing channels to increase
                   acquisition & LTV.</p>
-                <br>
-                <footer class="footer d-flex justify-content-between  mx-4">
-                  <div>Leah Keith,<cite title="Source Title"> GM </cite></div>
-                  <div><img src="./images/ovelrander_review_2.png" alt="" class="img-fluid">
-                </footer>
-            </div>
-            </blockquote>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Review 3 -->
-    <div class="container-fluid py-5" style="background-color: #FDF3EA;">
-      <div class="container">
-        <div class="row">
-          <div class="container-fluid">
-            <div class="col-12 col-md-10 col-lg-6">
-              <h2 style="font-weight: bolder;" class="ms-lg-5">Done for <span
-                  style="color: #009387; font-family: Covered by your Grace;">you</span></h2>
-              <p class="review_1_text  ms-lg-5">
-                From design & strategy to stamp-licking, our ecom experts help you every step of the way.
-              </p>
-              <br> <br>
-              <blockquote class="blockquote ms-lg-5"
-                style="position: relative;   border: 2px solid rgba(0, 0, 0, 0.3); border-radius: 10px; min-height: 200px; padding: 1.0rem; ">
-                <img src="./images/inverted_colons.png" alt="" class="img-fluid inverted_colon">
 
-                <p class="p-4">The team is so knowledgeable and beyond helpful. I'm blown away by their communication,
-                  detail, and attentiveness and always feel like they have our best interest in mind. Definitely worth a
-                  try</p>
-                <br>
-                <footer class="footer  d-flex justify-content-between mx-4 ">
-                  <div>Holly Davies,<cite title="Source Title">Marketing Director </cite> </div>
-                  <img src="./images/paragon_review_3.png" alt="" class="img-fluid mt-2 ">
-                </footer>
-              </blockquote>
-              <button class="review_3_custom-btn m-5">TRY IT RISK-FREE</button>
+                <div class="d-flex justify-content-between ">
+                  <div class="text-muted">Leah Keith,<cite title="Source Title"> GM </cite></div>
+                  <div>
+                    <img src="./images/ovelrander_review_2.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+
+              </div>
             </div>
           </div>
+
+        </div>
+      </div>
+
+
+
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-6">
+            <h2 style="font-weight: bolder;">Done for <span
+                style="color: #009387; font-family: Covered by your Grace;">you</span></h2>
+            <p>
+              From design & strategy to stamp-licking, our ecom experts help you every step of the way.
+            </p>
+            <div class="blockquote reviews_blockquote p-5">
+              <img src="./images/inverted_colons.png" alt="" class="img-fluid inverted_colon">
+
+              <p>The team is so knowledgeable and beyond helpful. I'm blown away by their communication,
+                detail, and attentiveness and always feel like they have our best interest in mind. Definitely worth a
+                try</p>
+              <div class="d-flex justify-content-between">
+                <div class="text-muted">Holly Davies, Marketing Director </div>
+                <h5>PARAGON</h5>
+              </div>
+
+            </div>
+            <button class="review_3_custom-btn m-2">TRY IT RISK-FREE</button>
+          </div>
+
         </div>
       </div>
     </div>
+
+
+
 
     <!-- Grid container Cards -->
-    <div class="container-fluid bg-white ">
-      <div class="container text-center mt-5 py-5">
-        <h1>
-          Everything your brand needs to<br>
-          <span style="color: #009387; font-family: 'Covered by your Grace';">
-            make your brand unforgettable
-          </span>
-        </h1>
+    <div class=" bg-white ">
+      <div class="container ">
+        <div class="text-center mt-5 py-5">
+          <h1>
+            Everything your brand needs to<br>
+            <span style="color: #009387; font-family: 'Covered by your Grace';">
+              make your brand unforgettable
+            </span>
+          </h1>
+        </div>
       </div>
 
-      <div class="container mt-5 py-5">
-        <div class="row">
-          <div class="col-12 col-sm-6 col-lg-4">
-            <div class="card p-4 grid_card" style="background-color: #fdf3ea;">
-              <img src="./images/card_1.png" class="card-img-top img-fluid" alt="...">
-              <div class="card-body">
-                <h4 class="card-text text-center fw-bold">Plug-and-play with your stack</h4>
-                <p class="text-center">Native integrations provide seamless segmentation, automation & tracking. No
-                  chunky spreadsheets.</p>
+      <div class="container">
+        <div class="mt-5 py-5">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="card p-4 grid_card" style="background-color: #fdf3ea;">
+                <img src="./images/card_1.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h4 class="card-text text-center fw-bold">Plug-and-play with your stack</h4>
+                  <p class="text-center">Native integrations provide seamless segmentation, automation & tracking.
+                    No
+                    chunky spreadsheets.</p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-12 col-sm-6 col-lg-4">
-            <div class="card p-4 grid_card" style="background-color: #e0f8f2;">
-              <img src="./images/card_2.png" class="card-img-top img-fluid mt-4" alt="...">
-              <div class="card-body">
-                <h4 class="card-text text-center fw-bold mt-2">Run campaigns on autopilot</h4>
-                <p class="text-center">Ink profits while you sleep: Just set it and forget it.</p>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="card p-4 grid_card" style="background-color: #e0f8f2;">
+                <img src="./images/card_2.png" class="card-img-top img-fluid mt-4" alt="...">
+                <div class="card-body">
+                  <h4 class="card-text text-center fw-bold mt-2">Run campaigns on autopilot</h4>
+                  <p class="text-center">Ink profits while you sleep: Just set it and forget it.</p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-12 col-sm-6 col-lg-4">
-            <div class="card p-4 grid_card" style="background-color: #eeecff;">
-              <img src="./images/card_3.png" class="card-img-top img-fluid" alt="...">
-              <div class="card-body">
-                <h4 class="card-text text-center fw-bold">Real-time ROI dashboard</h4>
-                <p class="text-center">Track performance of every postcard by customer or discount code. Your CFO will
-                  love it.</p>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="card p-4 grid_card" style="background-color: #eeecff;">
+                <img src="./images/card_3.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h4 class="card-text text-center fw-bold">Real-time ROI dashboard</h4>
+                  <p class="text-center">Track performance of every postcard by customer or discount code. Your CFO
+                    will
+                    love it.</p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-12 col-sm-6 col-lg-4">
-            <div class="card p-4 grid_card" style="background-color: #d9f2f7;">
-              <img src="./images/card_4.png" class="card-img-top img-fluid" alt="...">
-              <div class="card-body">
-                <h4 class="card-text text-center fw-bold">Deliver WOW with *real* handwritten cards</h4>
-                <p class="text-center">Our proprietary robots use real pens and ink for an unforgettable VIP touch.</p>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="card p-4 grid_card" style="background-color: #d9f2f7;">
+                <img src="./images/card_4.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h4 class="card-text text-center fw-bold">Deliver WOW with *real* handwritten cards</h4>
+                  <p class="text-center">Our proprietary robots use real pens and ink for an unforgettable VIP
+                    touch.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-12 col-sm-6 col-lg-4">
-            <div class="card p-4 grid_card" style="background-color: #faeded;">
-              <img src="./images/card_5.png" class="card-img-top img-fluid" alt="...">
-              <div class="card-body">
-                <h4 class="card-text text-center fw-bold">Predictable pricing</h4>
-                <p class="text-center">Unlike CPCs, postage rates don't change based on competition or who you're
-                  targeting.</p>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="card p-4 grid_card" style="background-color: #faeded;">
+                <img src="./images/card_5.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h4 class="card-text text-center fw-bold">Predictable pricing</h4>
+                  <p class="text-center">Unlike CPCs, postage rates don't change based on competition or who you're
+                    targeting.</p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-12 col-sm-6 col-lg-4">
-            <div class="card p-4 grid_card" style="background-color: #f1f1f1;">
-              <img src="./images/card_6.png" class="card-img-top img-fluid" alt="...">
-              <div class="card-body">
-                <h4 class="card-text text-center fw-bold">Complimentary concierge service</h4>
-                <p class="text-center">DTC is in our DNA. Our pros will build your strategy and custom designs using
-                  battle-tested best practices.</p>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="card p-4 grid_card" style="background-color: #f1f1f1;">
+                <img src="./images/card_6.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h4 class="card-text text-center fw-bold">Complimentary concierge service</h4>
+                  <p class="text-center">DTC is in our DNA. Our pros will build your strategy and custom designs
+                    using
+                    battle-tested best practices.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -400,12 +446,11 @@
     </div>
 
     <!-- Working -->
-    <div class="container-fluid" style="background-color: #E3F8F8;">
-      <div class="container  mb-5 py-5">
+    <div style="background-color: #E3F8F8;">
+      <div class="container py-5">
         <h2 class="text-center" style="font-weight: bold;">
           Fast Launch. Fast Results<br>
-          <span class="text-center"
-            style="color: #009387; font-family: 'Covered by your Grace', cursive; font-weight: 700;">
+          <span class="text-center" style="color: #009387; font-family: 'Covered by your Grace', cursive;">
             Here's how
           </span>
         </h2>
@@ -413,44 +458,57 @@
 
       <div class="container">
 
-        <div class="mb-5 d-flex align-items-start">
-          <h3 class="me-4 " style="color: #009387; font-family: 'Covered by your Grace', cursive; font-weight: 400;">01
-          </h3>
-          <h3 class="text-muted" style="font-family: 'Inter', sans-serif; font-weight: 700;">Segment</h3>
+        <div class="d-flex flex-column align-items-start">
+          <div class="d-flex">
+            <h3 class="me-4 " style="color: #009387; font-family: 'Covered by your Grace', cursive; font-weight: 400;">
+              01
+            </h3>
+            <h3 class="text-muted" style="font-family: 'Inter', sans-serif; font-weight: 700;">Segment</h3>
+          </div>
         </div>
 
-        <div class="mb-5 d-flex align-items-start">
-          <h3 class="me-4 " style="color: #009387; font-family: 'Covered by your Grace', cursive; font-weight: 400;">02
-          </h3>
-          <h3 class="text-muted" style="font-family: 'Inter', sans-serif; font-weight: 700;">Design</h3>
-        </div>
-
-        <div class="mb-5 d-flex align-items-start">
-          <h3 class="me-4" style="color: #009387; font-family: 'Covered by your Grace', cursive; font-weight: 400;">03
-          </h3>
-          <div>
-            <h3 style="font-family: 'Inter', sans-serif; font-weight: 700;">Send</h3>
-            <p class="scroll-box mt-2 fst-normal">
-              One-off announcements or automatically triggered flows. Customers receive their personalized cards within
-              a week.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem aspernatur recusandae,
-              voluptates impedit odit. Consequuntur praesentium quod ratione adipisci iusto nobis quisquam,
-              reprehenderit eum magni. Autem exercitationem consequatur minima?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam recusandae maiores veritatis reiciendis hic
-              voluptatum voluptatem vitae iure quod provident saepe similique ducimus at eligendi quasi voluptas,
-              explicabo dolore! Ea pariatur possimus sit eaque nostrum culpa nisi expedita voluptate cum, eveniet
-              temporibus debitis accusantium dicta quod consequatur modi mollitia enim facilis aperiam aut ducimus est
-              veniam! Error, repellat. Nostrum natus suscipit accusantium sed, praesentium, aliquid porro quos expedita
-              dolorem at aspernatur harum libero aperiam doloribus, magni aut.
-            </p>
+        <div class="d-flex flex-column align-items-start mt-5">
+          <div class="d-flex">
+            <h3 class="me-4 " style="color: #009387; font-family: 'Covered by your Grace', cursive; font-weight: 400; ">
+              02
+            </h3>
+            <h3 class="text-muted" style="font-family: 'Inter', sans-serif;">Design</h3>
           </div>
         </div>
 
 
-        <div class="mb-5 d-flex">
-          <h3 class="me-4" style="color: #009387; font-family: 'Covered by your Grace', cursive; font-weight: 400;">04
-          </h3>
-          <h3 class="text-muted" style="font-family: 'Inter', sans-serif; font-weight: 700;">Convert</h3>
+        <div class="d-flex flex-column align-items-start mt-5">
+          <div class="d-flex">
+            <h3 style="color: #009387; font-family: 'Covered by your Grace', cursive; font-weight: 400;">03
+            </h3>
+            <h3 class="ms-4" style="font-family: 'Inter', sans-serif; font-weight: 700;">Send</h3>
+          </div>
+          <p class="scroll-box mt-2 fst-normal px-md-5 px-4 mx-2">
+            One-off announcements or automatically triggered flows. Customers receive their personalized cards
+            within
+            a week.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem aspernatur recusandae,
+            voluptates impedit odit. Consequuntur praesentium quod ratione adipisci iusto nobis quisquam,
+            reprehenderit eum magni. Autem exercitationem consequatur minima?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam recusandae maiores veritatis reiciendis
+            hic
+            voluptatum voluptatem vitae iure quod provident saepe similique ducimus at eligendi quasi voluptas,
+            explicabo dolore! Ea pariatur possimus sit eaque nostrum culpa nisi expedita voluptate cum, eveniet
+            temporibus debitis accusantium dicta quod consequatur modi mollitia enim facilis aperiam aut ducimus
+            est
+            veniam! Error, repellat. Nostrum natus suscipit accusantium sed, praesentium, aliquid porro quos
+            expedita
+            dolorem at aspernatur harum libero aperiam doloribus, magni aut.
+          </p>
+        </div>
+
+
+        <div class="d-flex flex-column align-items-start py-5 ">
+          <div class="d-flex">
+            <h3 class="me-4" style="color: #009387; font-family: 'Covered by your Grace', cursive; font-weight: 400;">04
+            </h3>
+            <h3 class="text-muted" style="font-family: 'Inter', sans-serif; font-weight: 700;">Convert</h3>
+          </div>
         </div>
       </div>
     </div>
@@ -458,10 +516,12 @@
 
     <!-- Tweets -->
 
-    <div class="container-fluid  mb-5">
-      <div class="container py-5 d-flex justify-content-center">
-        <h1 class="text-center" style="font-style: Bold;">PostPilot is 🔥 for <span
-            style="font-family: Covered by your Grace; color: #009387;">DTC</span></h1>
+    <div>
+      <div class="container ">
+        <div class="py-5 d-flex justify-content-center">
+          <h1 class="text-center" style="font-style: Bold;">PostPilot is 🔥 for <span
+              style="font-family: Covered by your Grace; color: #009387;">DTC</span></h1>
+        </div>
       </div>
       <div class="container items items_tweet py-5">
         <div class="card card_tweet">
@@ -513,12 +573,12 @@
 
       </div>
 
-
     </div>
+
 
     <!-- coupons -->
 
-    <div class="container-fluid" style="background-color: #EEECFF;">
+    <div style="background-color: #EEECFF;">
       <div class="container py-5">
         <div class="row">
           <div class="col-12 col-lg-6">
@@ -531,43 +591,46 @@
             <p class="py-3 text-center">The 🚀 supplements brand wanted to offset high ad costs and reach dormant
               customers. They
               scored 1000%+ ROIs.</p>
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-4 text-center">
-                  <h6 class="facts fw-bold">1468%<br><span class="facts_type">ROI</span></h6>
-                </div>
-                <div class="col-4 text-center">
-                  <h6 class="facts">8.59%<br><span class="facts_type">Conversion Rate</span></h6>
-                </div>
-                <div class="col-4 text-center">
-                  <h6 class="facts">$73,457<br><span class="facts_type">Sales Generated</span></h6>
-                </div>
+
+            <div class="row">
+              <div class="col-4 text-center">
+                <h6 class="facts fw-bold">1468%<br><span class="facts_type">ROI</span></h6>
+              </div>
+              <div class="col-4 text-center">
+                <h6 class="facts">8.59%<br><span class="facts_type">Conversion Rate</span></h6>
+              </div>
+              <div class="col-4 text-center">
+                <h6 class="facts">$73,457<br><span class="facts_type">Sales Generated</span></h6>
               </div>
             </div>
-            <button class="coupon-btn mt-5">Read Case Study</button>
+
+            <button class="coupon-btn mt-lg-5 ms-5 mt-3">Read Case Study</button>
           </div>
         </div>
         <img src="./images/facts_logo.png" alt="" class="img-fluid mb-5">
       </div>
     </div>
     <!-- hand_held_coupon_section -->
-    <div class="container-fluid" style="background-color:#ff6d2c;">
-      <div class="container py-5">
+    <div style="background-color:#ff6d2c;">
+      <div class="container">
         <div class="row">
-          <div class="col-md-6" style="color: #E3F8F8;">
-            <h1 style="font-weight: bolder; " class="handheld_coupon_heading">Try PostPilot Risk-Free</h1>
-            <p>No contracts. No commitments. Guaranteed results.*</p>
-            <div class="d-flex flex-column flex-md-row align-items-center py-3">
-              <button class="handheld-custom-btn me-3">Get Started</button>
-              <div class="star-rating" style="color: white;">
-                ★★★★★<br>
-                <small class="fw-bold" style="font-family: 'Inter',sans-serif; color: white;">5.0 Shopify Rating</small>
+          <div class="col-md-6 col-12" style="color: white;">
+            <div class="py-5">
+              <h1>Try PostPilot Risk-Free</h1>
+              <p>No contracts. No commitments. Guaranteed results.*</p>
+              <div class="d-flex flex-column flex-md-row align-items-center py-3">
+                <button class="handheld-custom-btn me-3">Get Started</button>
+                <div class="star-rating_coupon mt-3">
+                  ★★★★★<br>
+                  <p class="fw-bold" style="font-family: 'Inter',sans-serif; color: white;">5.0 Shopify
+                    Rating</p>
+                </div>
               </div>
+              <p>* for qualified brands with over $1m annual Shopify revenue.</p>
             </div>
-            <p>* for qualified brands with over $1m annual Shopify revenue.</p>
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-6 col-12">
             <img src="/images/hand_held_coupon.png" alt="" class="img-fluid">
           </div>
         </div>
@@ -576,14 +639,15 @@
 
     <!-- Latest Trends -->
 
-    <div class="container-fluid  latest_container_fluid" style="background-color: #f3fafa;">
+    <div class="py-5" style="background-color: #f3fafa;">
       <div class="container py-5">
         <h1 class="text-center" style="font-weight: bold;">
           Latest Trends & <span style="font-family: 'Covered by your Grace'; color: #009387;">insights</span>
         </h1>
       </div>
 
-      <div class="container items">
+      <div class="container items py-5">
+
         <div class="card trend_card" style="background-color: transparent;">
           <div class="card-body">
 
@@ -636,18 +700,22 @@
 
     <!-- footer -->
 
-    <div class="container-fluid py-5">
-      <div class="container py-5">
+
+    <div class="container">
+      <div class="py-5">
         <div class="row">
-          <div class="col-md-3 text-center text-md-start px-3">
-            <img src="./images/eco.png" alt="" class="img-fluid">
-            <p class="mt-3">Our paper is sourced from FSC-certified mills. We plant enough trees to more than double our
-              paper usage</p>
+          <div class="col-md-3 ">
+            <div class="text-center text-md-start px-3">
+              <img src="./images/eco.png" alt="" class="img-fluid">
+              <p class="mt-3">Our paper is sourced from FSC-certified mills. We plant enough trees to more than double
+                our
+                paper usage</p>
+            </div>
           </div>
           <div class="col-md-3">
-            <h4 class="mb-4 ms-4">Company</h4>
-            <ul class="d-flex flex-column" style="list-style-type: none; cursor: pointer;">
 
+            <ul class="d-flex flex-column" style="list-style-type: none; cursor: pointer;">
+              <h4 class="mb-4">Company</h4>
               <li class="mb-4">About us</li>
               <li class="mb-4">Partner Program</li>
               <li class="mb-4">Career</li>
@@ -659,7 +727,7 @@
           </div>
           <div class="col-md-3">
             <ul class="d-flex flex-column" style="list-style-type: none; cursor: pointer;">
-              <li class="mt-5 mb-4">Pricing</li>
+              <li class="mt-lg-5 mb-4">Pricing</li>
               <li class="mb-4">Reviews</li>
               <li class="mb-4">Direct Mail Academy</li>
               <li class="mb-4">Success Stories</li>
@@ -667,8 +735,9 @@
             </ul>
           </div>
           <div class="col-md-3">
-            <h4 class="mb-4 ms-4">Contact</h4>
+
             <ul class="d-flex flex-column" style="list-style-type: none;">
+              <h4 class="mb-4">Contact</h4>
               <li class="mb-4 text-break"><img src="./images/msg_icon.png" alt=""
                   class="img-fluid">support@postpilot.com
               </li>
@@ -681,15 +750,20 @@
         </div>
       </div>
     </div>
+
     <div class="container border-top py-4">
-      <div class="row align-items-center">
-        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-          <img src="./images/logo.png" alt="" class="img-fluid mb-2">
-          <p class="mb-0">© 2022 PostPilot, Inc. All rights reserved.</p>
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="text-center text-md-start mb-3">
+            <img src="./images/logo.png" alt="" class="img-fluid">
+            <p>© 2022 PostPilot, Inc. All rights reserved.</p>
+          </div>
         </div>
-        <div class="col-md-6 text-center text-md-end">
-          <button class="btn-light  login_footer me-2 mb-2 mb-md-0">Login</button>
-          <button class=" try_it_btn">Try it for Free</button>
+        <div class="col-md-6 ">
+          <div class="text-center text-md-end">
+            <button class="btn-light  login_footer me-2 ">Login</button>
+            <button class=" try_it_btn">Try it for Free</button>
+          </div>
         </div>
       </div>
     </div>
@@ -705,11 +779,11 @@
   <script>
     $(document).ready(function () {
       $('.items').slick({
-        dots: true,
+        dots: false,
         infinite: true,
-        speed: 800,
+        speed: 300,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 2000,
         slidesToShow: 3,
         slidesToScroll: 3,
         responsive: [
